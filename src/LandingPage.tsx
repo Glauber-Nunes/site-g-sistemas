@@ -72,11 +72,28 @@ export default function LandingPage() {
       </section>
 
       <section className="bg-gray-900 py-16 px-4 text-center">
-        <div className="text-4xl mb-4 text-orange-500">🌐</div>
-        <h3 className="text-3xl font-bold mb-2">Desenvolvimento de Sistemas e Aplicativos</h3>
-        <p className="max-w-xl mx-auto text-gray-300">
-          Criamos soluções personalizadas sob medida para o seu negócio, com tecnologias modernas, tanto web quanto mobile.
+        <div className="text-4xl mb-4 text-orange-500">💼</div>
+        <h3 className="text-3xl font-bold mb-2">Planos e Preços</h3>
+        <p className="text-gray-300 mb-10 max-w-xl mx-auto">
+          Escolha o plano ideal para sua empresa ou solicite o desenvolvimento de um sistema ou aplicativo personalizado.
         </p>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+          <div className="bg-gray-800 border border-gray-700 p-6 rounded-lg shadow w-72">
+            <h4 className="text-orange-500 text-xl font-semibold mb-2">Plano Slim</h4>
+            <p className="text-gray-300">A partir de <span className="text-white font-bold">R$237</span></p>
+            <p className="text-sm mt-2">Ideal para pequenos negócios. Inclui suporte básico.</p>
+          </div>
+          <div className="bg-gray-800 border border-gray-700 p-6 rounded-lg shadow w-72">
+            <h4 className="text-orange-500 text-xl font-semibold mb-2">Plano Pro</h4>
+            <p className="text-gray-300">A partir de <span className="text-white font-bold">R$354</span></p>
+            <p className="text-sm mt-2">Solução completa com suporte prioritário.</p>
+          </div>
+          <div className="bg-gray-800 border border-gray-700 p-6 rounded-lg shadow w-72">
+            <h4 className="text-orange-500 text-xl font-semibold mb-2">Sistema ou App Personalizado</h4>
+            <p className="text-gray-300">A partir de <span className="text-white font-bold">R$400</span></p>
+            <p className="text-sm mt-2">Desenvolvimento sob medida com tecnologia moderna.</p>
+          </div>
+        </div>
       </section>
 
       <section className="bg-black text-center py-16 px-4">
