@@ -39,7 +39,7 @@ export default function LandingPage() {
       <header className="sticky top-0 bg-black shadow-md z-50">
         <div className="container mx-auto flex justify-between items-center py-4 px-6">
           <img src="/clientes/logo.png" alt="G Sistemas" className="h-20 w-auto"/>
-          <a href="https://wa.me/5581991896370" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5581994732329" target="_blank" rel="noopener noreferrer">
             <button className="border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white px-4 py-2 rounded">
               Fale Conosco
             </button>
@@ -75,8 +75,14 @@ export default function LandingPage() {
         <div className="text-4xl mb-4 text-orange-500">💼</div>
         <h3 className="text-3xl font-bold mb-2">Planos e Preços</h3>
         <p className="text-gray-300 mb-10 max-w-xl mx-auto">
-          Escolha o plano ideal para sua empresa ou solicite o desenvolvimento de um sistema ou aplicativo personalizado.
-        </p>
+  Escolha o plano ideal para sua empresa ou solicite o desenvolvimento de um sistema ou aplicativo personalizado.
+  <br />
+  <span className="text-orange-400 font-semibold">
+  Fechando com a gente, você ainda ganha um site profissional para o seu negócio com domínio .com.br totalmente gratuito.
+</span>
+
+</p>
+
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <div className="bg-gray-800 border border-gray-700 p-6 rounded-lg shadow w-72">
             <h4 className="text-orange-500 text-xl font-semibold mb-2">Plano Slim</h4>
@@ -131,7 +137,7 @@ export default function LandingPage() {
       <section className="bg-orange-500 text-black text-center py-12 px-4">
         <h3 className="text-2xl font-bold mb-2">Pronto para evoluir sua empresa?</h3>
         <p className="mb-4">Entre em contato e conheça nossos planos!</p>
-        <a href="https://wa.me/5581991896370" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/5581994732329" target="_blank" rel="noopener noreferrer">
           <button className="px-6 py-3 bg-black text-white rounded hover:bg-gray-800">Falar no WhatsApp</button>
         </a>
       </section>
