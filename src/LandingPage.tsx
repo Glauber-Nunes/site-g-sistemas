@@ -71,6 +71,13 @@ export default function LandingPage() {
         </div>
       </section>
 
+      <section className="bg-black text-center py-12 px-4">
+  <img src="/clientes/mascote-suporte.png" alt="Suporte Técnico G Sistemas" className="mx-auto w-40 h-auto mb-4"/>
+  <h3 className="text-2xl font-bold text-orange-500">Suporte Técnico Especializado</h3>
+  <p className="text-gray-300 mt-2">Nossa equipe está sempre pronta para atender você com agilidade e eficiência.</p>
+</section>
+
+
       <section className="bg-gray-900 py-16 px-4 text-center">
         <div className="text-4xl mb-4 text-orange-500">💼</div>
         <h3 className="text-3xl font-bold mb-2">Planos e Preços</h3>
@@ -86,7 +93,7 @@ export default function LandingPage() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-8">
           <div className="bg-gray-800 border border-gray-700 p-6 rounded-lg shadow w-72">
             <h4 className="text-orange-500 text-xl font-semibold mb-2">Plano Slim</h4>
-            <p className="text-gray-300">A partir de <span className="text-white font-bold">R$237</span></p>
+            <p className="text-gray-300">A partir de <span className="text-white font-bold">R$290</span></p>
             <p className="text-sm mt-2">Ideal para pequenos negócios. Inclui suporte básico.</p>
           </div>
           <div className="bg-gray-800 border border-gray-700 p-6 rounded-lg shadow w-72">
